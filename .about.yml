@@ -1,5 +1,17 @@
-project: Testing Grouplet
+---
+name: Testing Grouplet
+full_name: 18F Testing Grouplet
 type: docs
 status: active
 stage: alpha
 testable: false
+mission: 'Ensure the long-term success of 18F development projects by cultivating
+  the best automated testing tools, practices, and training materials available.
+
+'
+links:
+- url: https://pages.18f.gov/automated-testing-playbook
+  text: Automated Testing Playbook
+- url: https://pages.18f.gov/testing-cookbook
+  text: Automated Testing Cookbook
+tasks: https://github.com/18F/testing-grouplet/issues
