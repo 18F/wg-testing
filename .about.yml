@@ -1,7 +1,9 @@
 ---
 name: Testing Grouplet
 full_name: 18F Testing Grouplet
+short_name: testing
 type: docs
+owner_type: working_groups
 status: active
 stage: alpha
 testable: false
