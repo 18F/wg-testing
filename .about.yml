@@ -17,3 +17,10 @@ links:
 - url: https://pages.18f.gov/testing-cookbook
   text: Automated Testing Cookbook
 tasks: https://github.com/18F/testing-grouplet/issues
+leads:
+- githubUser: arowla
+- githubUser: mbland
+team:
+- githubUser: jmcarp
+- githubUser: monfresh
+- githubUser: shawnbot
