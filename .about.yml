@@ -3,7 +3,7 @@ name: Testing Grouplet
 full_name: 18F Testing Grouplet
 short_name: testing
 type: docs
-owner_type: working_groups
+owner_type: working-group
 status: active
 stage: alpha
 testable: false
@@ -18,10 +18,10 @@ links:
   text: Automated Testing Cookbook
 tasks: https://github.com/18F/testing-grouplet/issues
 team:
-- githubUser: arowla
+- github: arowla
   role: lead
-- githubUser: mbland
+- github: mbland
   role: lead
-- githubUser: jmcarp
-- githubUser: monfresh
-- githubUser: shawnbot
+- github: jmcarp
+- github: monfresh
+- github: shawnbot
