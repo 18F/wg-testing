@@ -1,7 +1,6 @@
 ---
-name: Testing Grouplet
 full_name: 18F Testing Grouplet
-short_name: testing
+name: testing
 type: docs
 owner_type: working-group
 status: active
