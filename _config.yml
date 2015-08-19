@@ -1,0 +1,86 @@
+baseurl: /wg-testing
+
+# To use the shared 18F Guides styles when deploying to pages.18f.gov,
+# uncomment the following:
+asset_root: /guides-template
+
+markdown: redcarpet
+name: 18F Testing Grouplet
+exclude:
+- go
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE.md
+
+permalink: pretty
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /assets/img/18f-logo.png
+logoalt: 18F logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Introduction
+  url: index.html
+  internal: true
+- text: Main repository
+  url: https://github.com/18F/wg-testing/
+  internal: false
+- text: .about.yml
+  url: https://github.com/18F/wg-testing/blob/18f-pages/.about.yml
+  internal: false
+- text: Objectives and Key Results
+  url: https://docs.google.com/a/gsa.gov/document/d/1O3x8rE-EyAgelatY8TkldEfr4HV1HKxG2jv-TnBBw6g/edit?usp=sharing
+  internal: false
+- text: Meeting agendas
+  url: https://drive.google.com/a/gsa.gov/folderview?id=0B8ub_y5rgCZRflprbkhxQUdyTXpFekI2U0hZTVRuUUlteUhXSVpXQ1lXOG1GQkhDZGFKRWs&usp=sharing
+  internal: false
+- text: Automated Testing Playbook
+  url: https://pages.18f.gov/automated-testing-playbook/
+  internal: false
+  children:
+  - text: Automated Testing Playbook repository
+    url: https://github.com/18F/automated-testing-playbook/
+    internal: false
+- text: Testing Cookbook
+  url: https://pages.18f.gov/testing-cookbook/
+  internal: false
+  children:
+  - text: Testing Cookbook repository
+    url: https://github.com/18F/testing-cookbook/
+    internal: false
+- text: Team API
+  url: https://team-api.18f.gov/api/
+  internal: false
+  children:
+  - text: Public Team API
+    url: https://team-api.18f.gov/public/api/
+    internal: false
+  - text: Team API repository
+    url: https://github.com/18F/team-api/
+    internal: false
+
+repos:
+- name: 18F Testing Grouplet
+  description: Main repository
+  url: https://github.com/18F/wg-testing
+
+google_analytics_ua: UA-48605964-19
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "guides_style_18f_default"
