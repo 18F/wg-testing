@@ -1,21 +1,25 @@
 ---
-full_name: 18F Testing Grouplet
+full_name: Testing Grouplet
 name: testing
 type: docs
 owner_type: working-group
 status: active
 stage: alpha
 testable: false
-mission: 'Ensure the long-term success of 18F development projects by cultivating
-  the best automated testing tools, practices, and training materials available.
-
-'
+description: >
+  Ensure the long-term success of 18F development projects by cultivating the best automated testing tools, practices, and training materials available.
 links:
+- url: https://pages.18f.gov/wg-testing
+  text: 18F Testing Grouplet home page
 - url: https://pages.18f.gov/automated-testing-playbook
   text: Automated Testing Playbook
 - url: https://pages.18f.gov/testing-cookbook
   text: Automated Testing Cookbook
-tasks: https://github.com/18F/testing-grouplet/issues
+tasks: https://github.com/18F/wg-testing/issues
+licenses:
+  wg-testing:
+    name: Public Domain (CC0)
+    url: https://creativecommons.org/publicdomain/zero/1.0/ 
 team:
 - github: arowla
   role: lead
