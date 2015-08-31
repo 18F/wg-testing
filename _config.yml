@@ -1,9 +1,3 @@
-baseurl: /wg-testing
-
-# To use the shared 18F Guides styles when deploying to pages.18f.gov,
-# uncomment the following:
-asset_root: /guides-template
-
 markdown: redcarpet
 name: 18F Testing Grouplet
 exclude:
@@ -37,7 +31,7 @@ navigation:
 - text: Main repository
   url: https://github.com/18F/wg-testing/
   internal: false
-- text: .about.yml
+- text: ".about.yml"
   url: https://github.com/18F/wg-testing/blob/18f-pages/.about.yml
   internal: false
 - text: Objectives and Key Results
